@@ -20,6 +20,30 @@
 html{
     font-size: 16px;
 }
+.header{
+    background-color: var(--orange);
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 0 0 20px 20px;
+}
+.logo{
+    max-width: 200px;
+    height: 40px;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+nav ul li a{
+    padding: 20px 0;
+    height: 100%;
+    display: inline-block;
+    color: var(--white);
+    text-decoration: none;
+}
 h2{
     color: var(--black);
     font-size: 40px;
